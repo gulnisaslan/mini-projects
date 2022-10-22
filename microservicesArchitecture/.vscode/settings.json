@@ -1,0 +1,6 @@
+{
+    "java.project.sourcePaths": [
+        "user-service"
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
