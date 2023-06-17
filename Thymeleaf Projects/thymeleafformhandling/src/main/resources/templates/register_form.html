@@ -13,7 +13,7 @@
         <h1>User Registration</h1>
         <form  th:action="@{/register}" th:objects="${user}" method="post">
         <label >FullName: </label>
-        <input type="text" th:field="*{name}">
+         <input type="text" th:field="*{name}">
         <label >E-mail </label>
         <input type="text" th:field="*{email}">
         <label >password </label>
@@ -32,6 +32,7 @@
         </br>
         <label >note</label>
         <textarea   cols="30" rows="10" th:field = *{note}></textarea>
+       
         <button type="button">register</button>
     </form>
 </div>
